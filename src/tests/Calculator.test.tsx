@@ -1,5 +1,5 @@
-import pretty from 'pretty';
 import { render } from '@testing-library/react';
+import pretty from 'pretty';
 import Calculator from '../components/Calculator';
 
 describe('Calculator', () => {
@@ -9,9 +9,8 @@ describe('Calculator', () => {
     const itemElement = document.querySelector('h2');
 
     if (itemElement) {
-      expect(itemElement.textContent).toBe('Simple Calculator');  
+      expect(itemElement.textContent).toBe('Simple Calculator');
     }
-    
   });
 
   it('should match snapshot', () => {
