@@ -22,8 +22,4 @@ describe('Calculator', () => {
       expect(pretty(calculatorElement.innerHTML)).toMatchSnapshot();
     }
   });
-
-  it('should fail', () => {
-    expect(true).toBe(false);
-  });
 });
